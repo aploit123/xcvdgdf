@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const adminprefix = "Ad";
-const devs = ['531494741238480896', '526871149745930251'];
+const adminprefix = "$";
+const devs = ['526871149745930251', '526871149745930251'];
  
 
 client.on('message', message => {
@@ -50,4 +50,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
 
 });
 
-client.login((process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
